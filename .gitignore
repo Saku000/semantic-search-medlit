@@ -1,0 +1,17 @@
+# virtual environment
+.venv/
+
+# environment variables
+.env
+
+# OS / editor
+__pycache__/
+*.pyc
+.DS_Store
+
+# large or regenerable artifacts
+data/raw/
+index/
+
+# optional: logs
+*.log
