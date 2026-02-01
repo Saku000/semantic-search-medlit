@@ -148,16 +148,14 @@ After activating the virtual environment, the following commands should run succ
 ```
 python src/prepare_chunks_from_pdf.py
 python src/build_index.py
-python src/search.py --query "type 2 diabetes cardiovascular risk factors" --top_k 5
-python src/rag_answer.py --question "What are common risk factors and complications of type 2 diabetes?" --top_k 5
+python src/search.py --query "intra-tumor heterogeneity clear cell renal cell carcinoma clonal evolution treatment resistance" --top_k 5
+python src/rag_answer.py --question "What is intra-tumor heterogeneity and why does it matter for cancer treatment?”" --top_k 5
 streamlit run src/app_streamlit.py
 ```
 
 ## 10. Limitations and Future Work
-Limited corpus size
-
 No OCR for scanned PDFs
-
+  
 Biomedical-specific embedding models could further improve performance
 
 More advanced reranking and citation grounding could be added
