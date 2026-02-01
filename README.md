@@ -145,8 +145,8 @@ After activating the virtual environment, the following commands should run succ
 ```
 python src/prepare_chunks_from_pdf.py
 python src/build_index.py
-python src/search.py --query "asthma comorbidities" --top_k 5
-python src/rag_answer.py --question "What are common comorbidities of asthma?" --top_k 5
+python src/search.py --query "type 2 diabetes cardiovascular risk factors" --top_k 5
+python src/rag_answer.py --question "What are common risk factors and complications of type 2 diabetes?" --top_k 5
 streamlit run src/app_streamlit.py
 ```
 
