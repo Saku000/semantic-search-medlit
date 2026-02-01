@@ -16,8 +16,11 @@ The project follows a modular, end-to-end NLP pipeline covering data preprocessi
 ## 2. Data
 
 - **Domain**: Medical literature  
-- **Corpus size**: ~150 PDF research papers  
 - **Source format**: PDF documents  
+- The `data/raw/` directory contains a placeholder file (`example.pdf`) for demonstration
+purposes only. The actual medical literature PDFs used in experiments are not included
+in this repository due to size and licensing considerations.
+
 
 ### Preprocessing
 1. Extract raw text from PDFs.
