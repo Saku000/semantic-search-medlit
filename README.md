@@ -149,7 +149,7 @@ After activating the virtual environment, the following commands should run succ
 python src/prepare_chunks_from_pdf.py
 python src/build_index.py
 python src/search.py --query "intra-tumor heterogeneity clear cell renal cell carcinoma clonal evolution treatment resistance" --top_k 5
-python src/rag_answer.py --question "What is intra-tumor heterogeneity and why does it matter for cancer treatment?”" --top_k 5
+python src/rag_answer.py --question "What is intra-tumor heterogeneity and why does it matter for cancer treatment?" --top_k 5
 streamlit run src/app_streamlit.py
 ```
 
