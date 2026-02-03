@@ -10,7 +10,8 @@ __pycache__/
 .DS_Store
 
 # large or regenerable artifacts
-data/raw/
+data/raw/*
+!data/raw/example.pdf
 index/
 
 # optional: logs
