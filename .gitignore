@@ -12,6 +12,10 @@ __pycache__/
 # large or regenerable artifacts
 data/raw/*
 !data/raw/example.pdf
+!data/raw/example2.pdf
+!data/raw/example3.pdf
+!data/raw/example4.pdf
+!data/raw/example5.pdf
 index/
 
 # optional: logs
